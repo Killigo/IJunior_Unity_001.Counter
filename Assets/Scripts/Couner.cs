@@ -5,9 +5,9 @@ using TMPro;
 public class Couner : MonoBehaviour
 {
     [SerializeField] private TMP_Text _text;
+    [SerializeField] private float _delay = 0.5f;
 
     private int _amount;
-    private float _delay = 1;
     private bool _isActive = false;
     private Coroutine timer;
 
